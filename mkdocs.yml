@@ -65,9 +65,6 @@ markdown_extensions:
 # Plugins
 plugins:
   - search
-  - mkdocs-video:
-      video_autoplay: false
-      video_loop: false
 
 # Page tree
 # nav:
