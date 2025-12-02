@@ -26,6 +26,7 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
+copyright: All rights reserved
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
