@@ -1,6 +1,7 @@
 site_name: Straight up Guiding it
 site_url: https://sodasyrup.github.io/guidingit/
 site_author: Soda/Salad
+use_directory_urls: true
 
 # Repository
 repo_name: SodaSyrup/guidingit
@@ -11,8 +12,14 @@ theme:
   name: material
   # custom_dir: 
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
-
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.footer
+    - navigation.top
+    - toc.follow
   palette:
     # Dark Mode
     - scheme: slate
