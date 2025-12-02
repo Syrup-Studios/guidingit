@@ -1,5 +1,5 @@
-site_name: My MkDocs Material Documentation
-site_url: https://sitename.example
+site_name: Straight up Guiding it
+site_url: https://sodasyrup.github.io/guidingit/
 theme:
   name: material
   palette:
@@ -9,7 +9,7 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       primary: cyan
-      accent: deep purple
+      accent: deep orange
 
     # Light Mode
     - scheme: default
