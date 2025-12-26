@@ -81,6 +81,13 @@ plugins:
       fallback_to_build_date: false
       strict: !ENV [ ENABLE_STRICT_GIT_REVISION_DATE, false ]
       enabled: !ENV [ ENABLE_GIT_REVISION_DATE, false ]
+  - minify:
+      minify_html: !ENV [ ENABLE_MINIFY, false ]
+      minify_js: !ENV [ ENABLE_MINIFY, false ]
+      minify_css: !ENV [ ENABLE_MINIFY, false ]
+      htmlmin_opts:
+        remove_comments: !ENV [ ENABLE_REMOVE_COMMENTS, false ]
+      cache_safe: true
 
 # Page tree
 # nav:
