@@ -1,6 +1,6 @@
 ---
 title: Homestead
-description: ATM10 Intro Description
+description: Homestead Intro Description
 ---  
 
 # Homestead
