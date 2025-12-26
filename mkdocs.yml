@@ -75,6 +75,12 @@ plugins:
       show_contribution: true
       strict: !ENV [ ENABLE_STRICT_GIT_AUTHORS, false ]
       enabled: !ENV [ ENABLE_GIT_AUTHORS, false ]
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
+      fallback_to_build_date: false
+      strict: !ENV [ ENABLE_STRICT_GIT_REVISION_DATE, false ]
+      enabled: !ENV [ ENABLE_GIT_REVISION_DATE, false ]
 
 # Page tree
 # nav:
