@@ -9,8 +9,9 @@ repo_url: https://github.com/SodaSyrup/guidingit
 
 # Configuration
 theme:
+  # custom_dir:
   name: material
-  # custom_dir: 
+  language: en
   features:
     - navigation.instant
     - navigation.tracking
@@ -22,20 +23,22 @@ theme:
     - toc.follow
   palette:
     # Dark Mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: cyan
-      accent: deep orange
 
     # Light Mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -89,12 +92,12 @@ plugins:
         remove_comments: !ENV [ ENABLE_REMOVE_COMMENTS, false ]
       cache_safe: true
 
-# Page tree
-# nav:
-#   - Home: index.md
-#   - Getting Started:
-#     - Code Examples: code-examples.md
-#     - Content Tabs: content-tabs.md
-#   - Mod Guides:
-#     - Mod Guides: mods/README.md
-#     - Lucky Duck's Fortune Cookies: mods/luckyduckfortunecookie/README.md
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: warn
+    absolute_links: info
+    unrecognized_links: info
