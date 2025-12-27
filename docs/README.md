@@ -5,7 +5,7 @@ description: Guides For Shenanigans Mod Pack!
 
 # Welcome!
 
-To the new **Guides**, by **Salad** (_ATM_).
+To the new **Guides**, by **Salad**.
 
 ???+ Tip "All The Guides is only for our packs"
     ATM has custom changes and additions, mostly recipes. This means it's only for ATM packs, and may not be the same for other packs. However, guides in the [Additional Guides](mods/README.md) should work for any pack with said mod.
