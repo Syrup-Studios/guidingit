@@ -1,0 +1,13 @@
+/* Styles the 'source-file.html' content to look like Shenanigans/ATM */
+.md-source-file {
+  color: var(--md-default-fg-color--light);
+  font-size: .64rem;
+  margin-top: 2em;
+  text-align: right;
+  font-style: italic;
+}
+
+.md-source-file hr {
+  margin-bottom: 0.5em;
+  border-top: 0.05rem solid var(--md-default-fg-color--lightest);
+}
