@@ -50,6 +50,9 @@ theme:
     code: Red Hat Mono
 copyright: All rights reserved
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 # Extensions
 markdown_extensions:
   - attr_list
@@ -70,6 +73,7 @@ markdown_extensions:
 plugins:
   - search
   - awesome-nav
+  - meta-descriptions
   - git-authors:
       show_email_address: false
       sort_authors_by: contribution
