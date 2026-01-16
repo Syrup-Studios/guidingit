@@ -9,7 +9,6 @@ repo_url: https://github.com/SodaSyrup/guidingit
 
 # Configuration
 theme:
-  # custom_dir:
   name: material
   custom_dir: overrides
   language: en
@@ -26,8 +25,8 @@ theme:
     # Dark Mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: cyan
-      accent: deep orange
+      primary: black
+      accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Dark mode
@@ -46,15 +45,15 @@ theme:
     view: material/eye
   favicon: assets/favicon.ico
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: "Nunito"
 copyright: All rights reserved
 
-extra_css:
-  - assets/stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
+  - toc:
+     permalink: true
+     title: <b>Table Of Contents</b>
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -90,6 +89,16 @@ plugins:
       htmlmin_opts:
         remove_comments: !ENV [ ENABLE_REMOVE_COMMENTS, false ]
       cache_safe: true
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      effect: fade
+      slide_effect: fade
+      width: auto
+      height: auto
+      draggable: false
+      auto_caption: true
+      caption_position: bottom
 
 validation:
   nav:

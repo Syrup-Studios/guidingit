@@ -1,7 +1,12 @@
+mkdocs
 mkdocs-material
-mkdocs-awesome-nav
 mkdocs-git-authors-plugin
 mkdocs-git-revision-date-localized-plugin
-mkdocs-minify-plugin
-pymdown-extensions
+mkdocs-git-committers-plugin-2
+mkdocs-markmap
+mkdocs-glightbox
+mkdocs-awesome-nav
+mkdocstrings
+mkdocs-autorefs
 mkdocs-meta-descriptions-plugin
+mkdocs-minify-plugin
