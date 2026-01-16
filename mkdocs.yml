@@ -11,7 +11,7 @@ repo_url: https://github.com/SodaSyrup/guidingit
 theme:
   # custom_dir:
   name: material
-  custom_dir: docs/overrides
+  custom_dir: overrides
   language: en
   features:
     - navigation.instant
