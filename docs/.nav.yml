@@ -5,3 +5,6 @@ nav:
    - Homestead: homestead
  - Mod Guides: mods
  - Help: help
+
+collapse_single_pages: true
+strict: true
