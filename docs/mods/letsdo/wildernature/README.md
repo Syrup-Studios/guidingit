@@ -1,1 +1,1 @@
-tamed owls attack zombies/hostiles
+tamed owls attack zombies/hostiles.
