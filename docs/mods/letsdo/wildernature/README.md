@@ -1,0 +1,1 @@
+tamed owls attack zombies/hostiles
