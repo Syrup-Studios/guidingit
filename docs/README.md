@@ -40,4 +40,4 @@ The most common launchers are [Prism](https://prismlauncher.org/) and [ATLaunche
 
 ---
 
-> Shenanigans | [GitHub](https://github.com/SodaSyrup/shenanigans) | [Discord](https://discord.gg/RPEz5JX4EM)
+> Shenanigans | [Modrinth](https://modrinth.com/modpack/shenanigans) | [GitHub](https://github.com/SodaSyrup/shenanigans) | [Discord](https://discord.gg/RPEz5JX4EM)
